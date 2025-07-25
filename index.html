@@ -6,7 +6,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <title>Document</title>
 </head>
-<body class="bg-gray-50 text-gray-800">
+<body class="bg-[#F4F7FE] text-gray-800">
   
   <!-- Navbar Part -->
 <nav class="flex item-center justify-between px-10 py-6">
@@ -47,7 +47,7 @@
 
 <section class="md:px-55 md:pb-30 pb-15"> 
   <div class="grid grid-cols-2 md:grid-cols-4 w-full">
-    <div class="bg-gray-50 pt-6 rounded text-center"> 
+    <div class="pt-6 rounded text-center"> 
       <img src="sample-flower-image.png" alt="A picture of Lily Blossom" class="w-full h-52 object-contain rounded mb-4">
       <h3 class="text-lg font-medium">Lily Blossom</h3>
       <p class="font-bold mb-4">20 USD</p>
@@ -120,5 +120,49 @@
       </ul>
     </div>
   </section>
+  <!-- Latest Deals Section -->
+   <section class="px-5 mb-20 md:mx-auto items-center md:w-200"> 
+    <div class="text-center md:w-150 mx-auto mb-15">
+      <h1 class="text-3xl font-bold mb-5"><span class="text-orange-500">Latest</span> <span class="text-black">Deals</span></h1>
+      <p class="text-gray-500">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+    </div>
+    <div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6"> 
+        <!-- Left row -->
+        <div class="flex flex-col gap-6"> 
+          <!-- Card 1 -->
+          <div class="relative rounded-xl overflow-hidden">
+            <img src="deal-bloom.png" alt="A image of Bloom Plant." class="w-full shadow-black/100">
+            <div class="absolute inset-0 flex flex-col justify-center items-center font-bold">
+              <h2 class="text-lg text-white">60% Off | Bloom Plant</h2>
+              <a href="#" class="underline mt-2 text-white">Shop Now</a>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="relative rounded-xl overflow-hidden">
+            <img src="deal-ana.png" alt="A image of Bloom Plant." class="w-full shadow-black/100">
+            <div class="absolute inset-0 flex flex-col justify-center items-center font-bold">
+              <h2 class="text-lg text-white">30% Off | Ana Plant</h2>
+              <a href="#" class="underline mt-2 text-white">Shop Now</a>
+            </div>
+          </div>
+
+        </div>
+        <!-- Right row -->
+         <div class="md:col-span-2"> 
+          <div class="relative rounded-xl overflow-hidden h-full"> 
+            <img src="deal-zabo.png" alt="A image of Zaboo Plant" class="w-full shadow-black/100">
+            <div class="absolute inset-0 flex flex-col justify-center items-center font-bold">
+              <h2 class="text-2xl text-white">25% Off | Zabo Plant</h2>
+              <a href="#" class="underline mt-2 text-2xl text-white">Shop Now</a>
+            </div>
+          </div>
+         </div>
+      </div>
+    </div>
+
+  </section>
+
+
 </body>
 </html>
